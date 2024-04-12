@@ -13,6 +13,7 @@ public void dibujarRectangulo(){
   //Dibujar rectangulo mientras nos de el tamaño del Lienzo
   for(float x=coordenadasRect.x; x<width ; x+=(Rectancho+DistEspacio)){ //Mientras X sea menor AnchoLienzo  
      for(float y=coordenadasRect.y; y<height ; y+=(RectAlto+DistEspacio)){ //Mientras Y sea menor AltoLienzo
+        fill(253, 170 , 14); //Relleno de color rectangulo
         rect(x , y, Rectancho, RectAlto);//Dibujo Rectangulo (Posicion y Tamaño)
      }
   }
